@@ -1,0 +1,15 @@
+<h1>UPDATE PRODUCT</h1>
+<form class="form" action="/product/updateproduct" method="POST">
+    <input type="hidden" name="id" value="{{product_where.id}}">
+    <div class="form-control">
+        <label for="title">Title</label>
+        <input type="text" name="title" placeholder="type the title" value="{{product_where.title}}">
+    </div>
+
+    <div class="form-control">
+        <label for="amount">Amount</label>
+        <input type="number" name="amount" placeholder="type the amount" value="{{product_where.amount}}">
+    </div>
+
+        <input class="button1" type="submit" value="Update">
+</form>

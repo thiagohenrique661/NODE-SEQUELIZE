@@ -1,0 +1,14 @@
+    <h1>Products available</h1>
+    <div class="products-container">
+
+        <button class="btn-insert">
+            <a href="/">ESSE É O INSERT</a>
+        </button>
+
+        {{#each product}} 
+        <div class="cor-branca">
+            #{{this.id}} - <span class="bold"> <a href="/product/{{this.id}}">{{this.title}} </a> </span> - {{this.amount}} 
+            units</a>
+        </div> 
+    {{/each }}
+    </div>

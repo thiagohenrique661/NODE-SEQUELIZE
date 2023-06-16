@@ -1,0 +1,14 @@
+<div id="product-where">
+    <a href="/product">BACK</a>
+    <div class="container">
+    <h1>{{product_where.title}}</h1>
+    <p>AMOUNT - {{product_where.amount}} units.</p>
+    <div class="actions">
+        <a href="/product/edit/{{product_where.id}}">UPDATE</a>
+        
+        <form action="/product/remove/{{product_where.id}}" method="POST">
+            <input class="btn-3" type="submit" value="Delete">
+        </form>
+    </div>
+    </div>
+</div>

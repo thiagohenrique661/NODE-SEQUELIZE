@@ -1,0 +1,142 @@
+* {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: white;
+  margin: 0;
+  
+}
+
+body{
+  background: #121212;
+}
+
+h1 {
+ 
+  text-transform: uppercase;
+  color: #B60E52 ;
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  margin-top: 20px;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  text-transform: uppercase;
+ 
+}
+
+.form-control input {
+  padding: 5px;
+  color: black;
+}
+
+.button1{
+  color: black;
+  border: none;
+  border-radius: 10px;
+  background-color: #E8FFA8;
+  margin-top: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cor-branca{
+  color: white;
+}
+
+.products-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.products-container div{
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+
+}
+.bold{
+  font-weight: bold;
+}
+
+.btn-insert{
+  border: none;
+  border-radius: 10px;
+  background-color: #B60E52;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+#navbar{
+  border-bottom: 1px solid #ccc ;
+  padding: 1em;
+  margin-bottom: 1em ;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#navbar ul li {
+ margin-left: 1em;
+}
+
+#product-where{
+  padding: 2em;
+  
+}
+
+#product-where .container{
+  text-align: center;
+}
+
+.actions{
+  margin-top: 20px;
+}
+
+.actions a{
+  padding: 10px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+.actions{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.actions a {
+  margin-right: 1em;
+ 
+}
+
+.btn-3{
+  padding: 12px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #B60E52;
+}
